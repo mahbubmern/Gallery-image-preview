@@ -1,0 +1,37 @@
+.profile img {
+	width: 150px;
+	margin-top: 5px;
+	border-radius: 50%;
+	object-fit: cover;
+	height: 150px;
+}
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.gallery-container img {
+	width: 150px;
+	margin: 10px;
+	object-fit: cover;
+}
+.gallery-container {
+	position: relative;
+}
+
+.gallery-container i{
+	position: absolute;
+	font-size: 15px;
+	right: 15px;
+	top: 15px;
+	border: 1px solid black;
+	padding: 2px;
+	color: red;
+	display: none;
+	transition: 0.8;
+	cursor: pointer;
+}
+.gallery-container .my-3:hover i {
+	display: block;
+}
